@@ -1,0 +1,6 @@
+framework module HoloCollectionViewDiffPlugin {
+  umbrella header "HoloCollectionViewDiffPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
