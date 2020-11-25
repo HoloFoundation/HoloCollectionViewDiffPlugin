@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HoloCollectionViewDiffPlugin_Example' do
+  pod 'HoloCollectionViewDiffPlugin', :path => '../'
+
+  target 'HoloCollectionViewDiffPlugin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
