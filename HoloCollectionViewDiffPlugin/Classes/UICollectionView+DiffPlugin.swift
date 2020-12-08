@@ -21,30 +21,20 @@ public extension UICollectionView {
         updateData: (() -> Void)? = nil,
         completion: ((Bool) -> Void)? = nil) {
         
-        var section: HoloCollectionSection?
-        var index = 0
-        
-        if sectionTag == nil {
-            section = self.holo_proxy.proxyData.sections.first
-            index = 0
-        } else {
-            section = self.holo_proxy.proxyData.section(withTag: sectionTag)
-            if let section = section, let idx = self.holo_proxy.proxyData.sections.firstIndex(of: section) {
-                index = idx
-            }
-        }
-        
-        if section == nil {
-            debugPrint("[HoloCollectionView] No found a section with the tag: \(sectionTag ?? "nil").")
+        guard let section = self.holo_proxy.proxyData.section(withTag: sectionTag),
+              let index = self.holo_proxy.proxyData.sections.firstIndex(of: section) else {
+            debugPrint("[HoloCollectionViewDiffPlugin] No found a section with the tag: \(sectionTag ?? "nil").")
             return
         }
         
-        var oldItems = [HoloCollectionRow]()
-        if let diffOldData = self.diffOldData, diffOldData.count > index, let items = diffOldData[index].rows {
-            oldItems = items
+        var oldItems: [HoloCollectionRow]
+        if let diffOldData = self.diffOldData, diffOldData.count > index {
+            oldItems = diffOldData[index].rows
+        } else {
+            oldItems = [HoloCollectionRow]()
         }
-        let items = section?.rows ?? [HoloCollectionRow]()
-        let changes = diff(old: oldItems, new: items)
+        let newItems = section.rows
+        let changes = diff(old: oldItems, new: newItems)
         
         self.reload(changes: changes,
                     section: index,

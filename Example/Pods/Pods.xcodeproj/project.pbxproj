@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0157C1A171586E5DD1F37FDBC714440A /* HoloCollectionViewDiffPlugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97B59AE40949E8172F8F6D7DBBAE1C /* HoloCollectionViewDiffPlugin-dummy.m */; };
 		0888D13C3D71ECD59F9F0F850533C66D /* HoloCollectionViewSectionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D68DC28D409E95A2501C38ABB6E26F /* HoloCollectionViewSectionMaker.m */; };
-		0B39EC8D7B6609F1EA13367BEB92B96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */; };
 		0CBA9809B4CB5988E292AE633E73CDE6 /* HoloCollectionViewMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 59AB1941D9AD458B66906BA446175EE9 /* HoloCollectionViewMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EB91CF6FC5AA08CEA67F1CBA8715F68 /* HoloCollectionViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 729D39D1ECC0095E2559E45D8667F24E /* HoloCollectionViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F0B8B45889C9E09776BE126F79E4CE8 /* Pods-HoloCollectionViewDiffPlugin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A814E67EDC95D8F1C0E088463E160BA2 /* Pods-HoloCollectionViewDiffPlugin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13457ED9DA9A92F415CB8493D1B84E6D /* MoveReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DFD0FB90A35EAD3602BAEE7D76C77E /* MoveReducer.swift */; };
 		1916E4C21397D3D57FEA568DA847413E /* HoloCollectionSectionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EBCBDD7F0587BB1CA7DB7FDA8528B5 /* HoloCollectionSectionMaker.m */; };
-		2000C092E9409E3B8CAAE607720AF9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */; };
-		26E0BD39CEF919594C22D982E761F12A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3158C20AF922EC7FFB5766BAADDF88C /* UIKit.framework */; };
+		1D49E9328BB964D3AFA4909B5901BD86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40465F37C634721522E5B7E8A26716B /* Foundation.framework */; };
 		29FC5736F12BA208BA6F6BD7700C8AB8 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E051CC689F6371C1CFF96A38CEBDDF4 /* Array+Extensions.swift */; };
 		2C93E23B98C01245B65D938BE2CD1660 /* HoloCollectionRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ADDB51D4FD8AC6444BC5EBC3497670 /* HoloCollectionRow.m */; };
 		2EFF91317DEB85714553FE1723319DA9 /* HoloCollectionSectionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E15B8267EBEC50FB186C28AFA1FA35A /* HoloCollectionSectionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F400B9DE1960165807B467A646EECF /* HoloCollectionViewUpdateRowMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B69F7FE1AE6D5247694CB2718B5A5AB6 /* HoloCollectionViewUpdateRowMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E0854061008A75F3F3FCC5E0EFB5398 /* HoloCollectionViewDiffPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 775C7E533C691F38AE55DCC59B5939A0 /* HoloCollectionViewDiffPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4040DD072A3F6FC0A3B4382B5CCE371D /* HoloCollectionViewRowMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDA7AD722DF87CD73E8B2427BCA2C26 /* HoloCollectionViewRowMaker.m */; };
+		484315814C70E385455CF7264E281E5D /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F498058C4A00FF0C9EB861D155254C30 /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m */; };
+		4ED5C49C481164C081C9C8A7A5088624 /* HoloCollectionView+DiffPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345C3B54980F5779B3A8C64ADCDAD8F7 /* HoloCollectionView+DiffPlugin.swift */; };
 		50927A00AC7DEC62C063B8347ACE5B6F /* HoloCollectionViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D98D98DF59C5E847BA6D2672F4D43188 /* HoloCollectionViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50E84115FA3D111FF4F382ABDBD38BA9 /* IndexPathConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D929B685B373724D7A2745BAC80D6 /* IndexPathConverter.swift */; };
 		538E580370D30E53387433B2FB4791BD /* Heckel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44035CBE30B3FC34B49E24B137A500 /* Heckel.swift */; };
@@ -29,33 +28,34 @@
 		5A5C4A0DF0CCA67F5EB9C9ADB77022CD /* HoloCollectionViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EE42B7D75B0B2564624998E4F85E6C /* HoloCollectionViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FF1675941B76D8BE46B025D57DD009C /* HoloCollectionViewProxyData.h in Headers */ = {isa = PBXBuildFile; fileRef = BC510DEE3CFA1A7BFC38EBA6AE06B475 /* HoloCollectionViewProxyData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		633CB73476A6DDC68480D216E48491F5 /* HoloCollectionViewHeaderFooterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB13043BF5C68BD546A109CF5064635 /* HoloCollectionViewHeaderFooterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6779644F0D2AC6D751A64BD8BE03114E /* UICollectionView+DiffPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106E95F8C988E83AC687DB7D832C109 /* UICollectionView+DiffPlugin.swift */; };
+		6A45700118726A35C528772891668BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40465F37C634721522E5B7E8A26716B /* Foundation.framework */; };
 		6CFDFDC0CF0B6DD558096C57538FE720 /* HoloCollectionViewSectionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3E2D33AA9441EC5CCE6B4DC9C4B648 /* HoloCollectionViewSectionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F591F6FAB82AE8F03EAE81FD2AF9D71 /* UICollectionView+HoloCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB62432453D9B955B93F1ABBA4EFFA31 /* UICollectionView+HoloCollectionView.m */; };
 		6F8736D5CC383F94E28A57648BE1EE25 /* HoloCollectionSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE466F50501F5001C99C042B333B039 /* HoloCollectionSection.m */; };
+		703637780E8C4959DD279FB9C73997C0 /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB11B5623FE81B344305E85CA714426 /* DeepDiff.framework */; };
 		72AC6DBE10717ECE0AC6B717A6DB0BE7 /* DeepDiff-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FA7F0BFDB83227992F229892480270 /* DeepDiff-dummy.m */; };
+		74BEF82DE7E09B41744762A577335EEE /* Pods-HoloCollectionViewDiffPlugin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A1E644E9ABB0CD2C59CAC40EB1F5E /* Pods-HoloCollectionViewDiffPlugin_Example-dummy.m */; };
 		76578E39A12705AED24B8DDE69F0F277 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D292C5210642F55E97B31BEA014AD91 /* UICollectionView+Extensions.swift */; };
 		77380394BCD999FD88F708E47BDE2C4B /* HoloCollectionViewRowMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DC08C9EB925A8A7DEECEA8EB967908 /* HoloCollectionViewRowMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78445B90B8950AC4E2C0FD3E56BA39B9 /* HoloCollectionViewFooterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F34F330A6071AA07EE40B8063A8ABA8F /* HoloCollectionViewFooterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9002F9465AAEC8C7CED8D45CCD62CD5C /* HoloCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1C70934952DE8CB82332FE8B99328 /* HoloCollectionView.framework */; };
+		78CA6F459FAD1F182AD935A984AFF0FE /* HoloCollectionViewDiffPlugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 775C7E533C691F38AE55DCC59B5939A0 /* HoloCollectionViewDiffPlugin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCB4F3981B6F50541A93E9EA034E57F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40465F37C634721522E5B7E8A26716B /* Foundation.framework */; };
+		855735C01527492B97B36BB0DA1FD44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40465F37C634721522E5B7E8A26716B /* Foundation.framework */; };
 		9164D8CBD3067023471150786C6C4CC2 /* HoloCollectionViewHeaderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF39B76F982A9E2FD7720C6C1679466 /* HoloCollectionViewHeaderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		950109A0E934D1DE409FB3EBBB6B0201 /* HoloCollectionRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D181C1C716734EB03C7B34E4DB26242 /* HoloCollectionRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BC85290D814CCB8D0E03861C44049A9 /* HoloCollectionViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE22374FFF9E6320D2DB2E5A6E3ACF7 /* HoloCollectionViewProxy.m */; };
 		9BF814252125E4D67B5B755882D2800F /* UICollectionView+HoloCollectionViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F73985C5400F109872F73921B1A4E01F /* UICollectionView+HoloCollectionViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D63DD228D951666C57924F050BC49E2 /* HoloCollectionViewDiffPlugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97B59AE40949E8172F8F6D7DBBAE1C /* HoloCollectionViewDiffPlugin-dummy.m */; };
-		9F603706F88535176F8BDFA7AA004D51 /* Pods-HoloCollectionViewDiffPlugin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A1E644E9ABB0CD2C59CAC40EB1F5E /* Pods-HoloCollectionViewDiffPlugin_Example-dummy.m */; };
-		A078001495ED3453DBDE7678A33946AF /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F498058C4A00FF0C9EB861D155254C30 /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m */; };
 		A17C9FC58EC33A033CC75791CE751258 /* DiffAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E666E8C6BEAF1BCE3EC0E9F47455572 /* DiffAware.swift */; };
 		A2C5DF40E3A7BE66BDFC65881023E188 /* Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926517EA9F9E6F16EC3EC4EDDCA2A90 /* Change.swift */; };
 		A6977C76C0A261211EC1DBC142D49BE7 /* HoloCollectionRowMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C708F2E18F5856068429C57581F3DA /* HoloCollectionRowMaker.m */; };
 		A80A4027099353D09AAEC2C3820D5CE8 /* HoloCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 907A25A31C002C77FF5D52D64860FD3C /* HoloCollectionViewMaker.m */; };
-		A821A1E52C1A1B18A9F6D034C691080D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */; };
 		AD2E8B7E610118A1621092C8369D29AE /* HoloCollectionViewUpdateRowMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D728C52D5E867722E98CA8979BAB510 /* HoloCollectionViewUpdateRowMaker.m */; };
-		B56EC28C7BE479626C21F5E2E8D2EB35 /* HoloCollectionView+DiffPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345C3B54980F5779B3A8C64ADCDAD8F7 /* HoloCollectionView+DiffPlugin.swift */; };
-		C42D6F8F0D1CBCAC1DB9751215F2A602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */; };
+		AD99019A9B49F53B296AFC534C7D1EB3 /* UICollectionView+DiffPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106E95F8C988E83AC687DB7D832C109 /* UICollectionView+DiffPlugin.swift */; };
+		BAF35D6C804E569610A32BC331CCCC7C /* HoloCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF1C70934952DE8CB82332FE8B99328 /* HoloCollectionView.framework */; };
 		C60E5CB8E0053EF544556CF649390C81 /* HoloCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A4EFB780D1AD19EE91B9DB6B6FCD0B /* HoloCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6B4EB3968533FF053710C18700EC1D2 /* WagnerFischer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D11B24D057B4FD3BC95BF4763A7BA6 /* WagnerFischer.swift */; };
-		C8AE93E5704C0C962833885AC2800AA8 /* Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A9D8D22D0098278A20CD51E09B40C9 /* Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF737C4A4B5C9516EC090A86F904D7DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C92E39E65D3AC09EF921BA5C2FF58DF /* UIKit.framework */; };
+		D20B34631027D0FA1E9D0228C92FCE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40465F37C634721522E5B7E8A26716B /* Foundation.framework */; };
 		D4843625434F5883B6344A74C38E1960 /* HoloCollectionViewProxyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6407C2AF9124F265594BB08F449D8 /* HoloCollectionViewProxyData.m */; };
 		D4E786FB1CFF3065E2F9FBCD105D8A00 /* HoloCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7556245C279ECC8FD36014DA06F6387C /* HoloCollectionView-dummy.m */; };
 		D9BA433FA3363B8E2EEB865D33A18A3E /* UICollectionView+HoloCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 33030DA87C5D167848FF2C9DA9095D38 /* UICollectionView+HoloCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,48 +65,48 @@
 		E42AB416845C4F6D89D6693CE5849A58 /* HoloCollectionSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E7CB88054CCAE859E618D3486EF838 /* HoloCollectionSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6C0D0A22147CCFF6B55D406C307590E /* HoloCollectionViewCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B95BB47A77D6977E84529CD6F2E6DEBC /* HoloCollectionViewCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBCBBA1F7104807E147A79ABB7AB6C8A /* UICollectionView+HoloCollectionViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F98977A3D1147223278DA204928A13 /* UICollectionView+HoloCollectionViewProxy.m */; };
-		EF035D41379E2800F5F3BA773D85A41C /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB11B5623FE81B344305E85CA714426 /* DeepDiff.framework */; };
 		F68CE518D49A1B4F6307A8320683349D /* HoloCollectionRowMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA0D0CB4A207D73479E24B6C3B41431 /* HoloCollectionRowMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC0455DB6A09C2F91E0FA49303812528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */; };
+		FA1F4D1BEBCD00E2F50F821C70B8A048 /* Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A9D8D22D0098278A20CD51E09B40C9 /* Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7F213BC8564C52DF8615DC8F5D70AF /* Pods-HoloCollectionViewDiffPlugin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A814E67EDC95D8F1C0E088463E160BA2 /* Pods-HoloCollectionViewDiffPlugin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02E34184684E6BE809FBA67ADA8A376D /* PBXContainerItemProxy */ = {
+		13EE9A15AC7BEABDACD016E0CD325A20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 381E72C4BC4A81B6D674521B23843E8F;
-			remoteInfo = HoloCollectionViewDiffPlugin;
+			remoteGlobalIDString = B798275031D11315684486DC2E2B6FCA;
+			remoteInfo = DeepDiff;
 		};
-		068F677EC41C9C0E936B7232654DAEFA /* PBXContainerItemProxy */ = {
+		31D302FEAD7E2AF927CFA72AF16CA070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B798275031D11315684486DC2E2B6FCA;
+			remoteInfo = DeepDiff;
+		};
+		698C9352BC006AC60F8E15581B26DDF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2F87581DC551AFD3D846D454015C8183;
 			remoteInfo = HoloCollectionView;
 		};
-		313A73C3A41C7202F96BF91DF6898B96 /* PBXContainerItemProxy */ = {
+		81ED774184A19E0392F722975F82C5FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B798275031D11315684486DC2E2B6FCA;
-			remoteInfo = DeepDiff;
+			remoteGlobalIDString = 381E72C4BC4A81B6D674521B23843E8F;
+			remoteInfo = HoloCollectionViewDiffPlugin;
 		};
-		C094B0390936DC0F1F0E12FF303B058B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B798275031D11315684486DC2E2B6FCA;
-			remoteInfo = DeepDiff;
-		};
-		E00A0EF783DFCA5270A3AE9955E7C25E /* PBXContainerItemProxy */ = {
+		957E53F1ADB6F593B4AC184837AB39D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ACACD9E46A52E075AEDB5B7B1EF991F8;
 			remoteInfo = "Pods-HoloCollectionViewDiffPlugin_Example";
 		};
-		EC2DB1C9A4026FA96AF3619FB236C340 /* PBXContainerItemProxy */ = {
+		FC7B30514F376FEB064B0A4AFE495A9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -119,6 +119,7 @@
 		0106E95F8C988E83AC687DB7D832C109 /* UICollectionView+DiffPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+DiffPlugin.swift"; path = "HoloCollectionViewDiffPlugin/Classes/UICollectionView+DiffPlugin.swift"; sourceTree = "<group>"; };
 		0430902546F4972C84B47FFC39FAACE1 /* HoloCollectionViewDiffPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoloCollectionViewDiffPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EE42B7D75B0B2564624998E4F85E6C /* HoloCollectionViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HoloCollectionViewProtocol.h; path = HoloCollectionView/Classes/Holo/HoloProtocol/HoloCollectionViewProtocol.h; sourceTree = "<group>"; };
+		0C92E39E65D3AC09EF921BA5C2FF58DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0D181C1C716734EB03C7B34E4DB26242 /* HoloCollectionRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HoloCollectionRow.h; path = HoloCollectionView/Classes/HoloMaker/Row/HoloCollectionRow.h; sourceTree = "<group>"; };
 		0D45C6EB1EC7CB7E16D38D3F56DB8DF4 /* HoloCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HoloCollectionView.release.xcconfig; sourceTree = "<group>"; };
 		10DFD0FB90A35EAD3602BAEE7D76C77E /* MoveReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveReducer.swift; path = Sources/Shared/MoveReducer.swift; sourceTree = "<group>"; };
@@ -190,13 +191,11 @@
 		C308241B96A4B401DD0031DD27702496 /* HoloCollectionViewDiffPlugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HoloCollectionViewDiffPlugin.debug.xcconfig; sourceTree = "<group>"; };
 		C5FA7F0BFDB83227992F229892480270 /* DeepDiff-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeepDiff-dummy.m"; sourceTree = "<group>"; };
 		C6620A065263C5CED456347CBCD593CB /* Pods-HoloCollectionViewDiffPlugin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HoloCollectionViewDiffPlugin_Example.modulemap"; sourceTree = "<group>"; };
-		CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDE3D7D7D8FB748508A5BB33E54C95CB /* Pods-HoloCollectionViewDiffPlugin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoloCollectionViewDiffPlugin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D98D98DF59C5E847BA6D2672F4D43188 /* HoloCollectionViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HoloCollectionViewProxy.h; path = HoloCollectionView/Classes/HoloProxy/HoloCollectionViewProxy.h; sourceTree = "<group>"; };
 		D9A82CF73A11FAE680D17CA47492DAFB /* Pods-HoloCollectionViewDiffPlugin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HoloCollectionViewDiffPlugin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DB25BB942299E8FF64F9A5F8768CD7AE /* Pods-HoloCollectionViewDiffPlugin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HoloCollectionViewDiffPlugin_Tests.modulemap"; sourceTree = "<group>"; };
 		DCF39B76F982A9E2FD7720C6C1679466 /* HoloCollectionViewHeaderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HoloCollectionViewHeaderProtocol.h; path = HoloCollectionView/Classes/Holo/HoloProtocol/HoloCollectionViewHeaderProtocol.h; sourceTree = "<group>"; };
-		E3158C20AF922EC7FFB5766BAADDF88C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E50CE4C26031D498D570ADA06EF7DCE1 /* DeepDiff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeepDiff.debug.xcconfig; sourceTree = "<group>"; };
 		E5AB5EC255E31DD21196D86BD30DCE2F /* HoloCollectionViewDiffPlugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HoloCollectionViewDiffPlugin.release.xcconfig; sourceTree = "<group>"; };
 		EB62432453D9B955B93F1ABBA4EFFA31 /* UICollectionView+HoloCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+HoloCollectionView.m"; path = "HoloCollectionView/Classes/Holo/UICollectionView+HoloCollectionView.m"; sourceTree = "<group>"; };
@@ -204,6 +203,7 @@
 		EF97B59AE40949E8172F8F6D7DBBAE1C /* HoloCollectionViewDiffPlugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HoloCollectionViewDiffPlugin-dummy.m"; sourceTree = "<group>"; };
 		F1D11B24D057B4FD3BC95BF4763A7BA6 /* WagnerFischer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WagnerFischer.swift; path = Sources/Shared/Algorithms/WagnerFischer.swift; sourceTree = "<group>"; };
 		F34F330A6071AA07EE40B8063A8ABA8F /* HoloCollectionViewFooterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HoloCollectionViewFooterProtocol.h; path = HoloCollectionView/Classes/Holo/HoloProtocol/HoloCollectionViewFooterProtocol.h; sourceTree = "<group>"; };
+		F40465F37C634721522E5B7E8A26716B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F498058C4A00FF0C9EB861D155254C30 /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m"; sourceTree = "<group>"; };
 		F649B1CC0F22DCEB25F465E6299B3B5C /* Pods-HoloCollectionViewDiffPlugin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HoloCollectionViewDiffPlugin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6DC08C9EB925A8A7DEECEA8EB967908 /* HoloCollectionViewRowMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HoloCollectionViewRowMaker.h; path = HoloCollectionView/Classes/HoloMaker/Row/HoloCollectionViewRowMaker.h; sourceTree = "<group>"; };
@@ -217,26 +217,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A821A1E52C1A1B18A9F6D034C691080D /* Foundation.framework in Frameworks */,
-				26E0BD39CEF919594C22D982E761F12A /* UIKit.framework in Frameworks */,
+				855735C01527492B97B36BB0DA1FD44A /* Foundation.framework in Frameworks */,
+				CF737C4A4B5C9516EC090A86F904D7DC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4665845778ED0A15F5C59C1A0A49D328 /* Frameworks */ = {
+		64FAC19A1574504A08B21AA82739F7A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF035D41379E2800F5F3BA773D85A41C /* DeepDiff.framework in Frameworks */,
-				C42D6F8F0D1CBCAC1DB9751215F2A602 /* Foundation.framework in Frameworks */,
-				9002F9465AAEC8C7CED8D45CCD62CD5C /* HoloCollectionView.framework in Frameworks */,
+				703637780E8C4959DD279FB9C73997C0 /* DeepDiff.framework in Frameworks */,
+				7FCB4F3981B6F50541A93E9EA034E57F /* Foundation.framework in Frameworks */,
+				BAF35D6C804E569610A32BC331CCCC7C /* HoloCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		720AA3C4AA9E996897D0AB07F348C49F /* Frameworks */ = {
+		6D1E8EEE735B4F918A31D2EC51BB1D87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B39EC8D7B6609F1EA13367BEB92B96E /* Foundation.framework in Frameworks */,
+				D20B34631027D0FA1E9D0228C92FCE65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736A10E6434F3B57A708D2F3E1CC3441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A45700118726A35C528772891668BD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,15 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2000C092E9409E3B8CAAE607720AF9C3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F702FD537F5DA7ADD05582518F41250D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC0455DB6A09C2F91E0FA49303812528 /* Foundation.framework in Frameworks */,
+				1D49E9328BB964D3AFA4909B5901BD86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +268,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1E21BDFEFA890415A0EB471DFCA465D4 /* iOS */ = {
+		275DD07B8B1CE67B68523DACDFABBD44 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CD6A6A35BB42CE420A5ED3336DE66E83 /* Foundation.framework */,
-				E3158C20AF922EC7FFB5766BAADDF88C /* UIKit.framework */,
+				F40465F37C634721522E5B7E8A26716B /* Foundation.framework */,
+				0C92E39E65D3AC09EF921BA5C2FF58DF /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 			children = (
 				ADB11B5623FE81B344305E85CA714426 /* DeepDiff.framework */,
 				FBF1C70934952DE8CB82332FE8B99328 /* HoloCollectionView.framework */,
-				1E21BDFEFA890415A0EB471DFCA465D4 /* iOS */,
+				275DD07B8B1CE67B68523DACDFABBD44 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -488,6 +488,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		12F70A209067A96ED982305B82F35663 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7F213BC8564C52DF8615DC8F5D70AF /* Pods-HoloCollectionViewDiffPlugin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2521D91A7CDB10C4F6D0DB0FC09799AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,27 +523,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FF32FC3BFFE176A44B90C6F6A8B61C5 /* Headers */ = {
+		27FBE1BAB12DF90F50A65AECE14D2D3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0B8B45889C9E09776BE126F79E4CE8 /* Pods-HoloCollectionViewDiffPlugin_Example-umbrella.h in Headers */,
+				FA1F4D1BEBCD00E2F50F821C70B8A048 /* Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95981D0BC52CE3118597006B263C824D /* Headers */ = {
+		568CA8A63BF585AA1F24846C70A6FBB7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AE93E5704C0C962833885AC2800AA8 /* Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE89A09B5E134F61CF9A3280648C8875 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E0854061008A75F3F3FCC5E0EFB5398 /* HoloCollectionViewDiffPlugin-umbrella.h in Headers */,
+				78CA6F459FAD1F182AD935A984AFF0FE /* HoloCollectionViewDiffPlugin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,17 +552,17 @@
 /* Begin PBXNativeTarget section */
 		1338E257B0D7F15A883747FCEEFF9090 /* Pods-HoloCollectionViewDiffPlugin_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1606167459F4C0D2002709ABE09152E /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Tests" */;
+			buildConfigurationList = 3415AAE7898B1F3347CD549471F8510D /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Tests" */;
 			buildPhases = (
-				95981D0BC52CE3118597006B263C824D /* Headers */,
-				66BB23CF274D4A31821B55D3106703ED /* Sources */,
-				F702FD537F5DA7ADD05582518F41250D /* Frameworks */,
-				59CF18DD55358B7DA77C952E49FAC98B /* Resources */,
+				27FBE1BAB12DF90F50A65AECE14D2D3A /* Headers */,
+				4A62AA4FBFB3F5F03165A1F71D6B633E /* Sources */,
+				736A10E6434F3B57A708D2F3E1CC3441 /* Frameworks */,
+				A33E6E90B47D58C6EF262276B48E6616 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2F8F80499E403AC75D497FDD31225DC9 /* PBXTargetDependency */,
+				FA4F5B7840A939E5CDEA3FB4902D86C2 /* PBXTargetDependency */,
 			);
 			name = "Pods-HoloCollectionViewDiffPlugin_Tests";
 			productName = "Pods-HoloCollectionViewDiffPlugin_Tests";
@@ -589,18 +589,18 @@
 		};
 		381E72C4BC4A81B6D674521B23843E8F /* HoloCollectionViewDiffPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC9F00D5309BA7D9145CE8A6EB695C91 /* Build configuration list for PBXNativeTarget "HoloCollectionViewDiffPlugin" */;
+			buildConfigurationList = F847241107C978A31119382EEBDF1B50 /* Build configuration list for PBXNativeTarget "HoloCollectionViewDiffPlugin" */;
 			buildPhases = (
-				BE89A09B5E134F61CF9A3280648C8875 /* Headers */,
-				B1996F565292AA7B1E5E8C41C687679F /* Sources */,
-				4665845778ED0A15F5C59C1A0A49D328 /* Frameworks */,
-				4D033FE32023C2E56957526C366FF55F /* Resources */,
+				568CA8A63BF585AA1F24846C70A6FBB7 /* Headers */,
+				74D0F98EC0DA04E9736D99134BE9D301 /* Sources */,
+				64FAC19A1574504A08B21AA82739F7A1 /* Frameworks */,
+				E587A321229EEFB77891853D4E9B9EEA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F3D80415D4D98D4D4D8237950EF5E969 /* PBXTargetDependency */,
-				9D3CD0DECB7E3A744170EB1F8599CE8E /* PBXTargetDependency */,
+				E42F91C1A6830CB460D8162C0ED8E2E6 /* PBXTargetDependency */,
+				C3AF0E6B8F306D0C2D86F62697B1A756 /* PBXTargetDependency */,
 			);
 			name = HoloCollectionViewDiffPlugin;
 			productName = HoloCollectionViewDiffPlugin;
@@ -609,19 +609,19 @@
 		};
 		ACACD9E46A52E075AEDB5B7B1EF991F8 /* Pods-HoloCollectionViewDiffPlugin_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73562FA675B9BB798D202BC833D48555 /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Example" */;
+			buildConfigurationList = 84E192E3CEF698E9680DCB3B92AFDE7B /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Example" */;
 			buildPhases = (
-				4FF32FC3BFFE176A44B90C6F6A8B61C5 /* Headers */,
-				11ECBFD2EF306FE5D11D9735C1786568 /* Sources */,
-				720AA3C4AA9E996897D0AB07F348C49F /* Frameworks */,
-				19C1B476E36AEF0218310E46FDB26E4F /* Resources */,
+				12F70A209067A96ED982305B82F35663 /* Headers */,
+				681A5940E92459FF5E368AA42FA84DCE /* Sources */,
+				6D1E8EEE735B4F918A31D2EC51BB1D87 /* Frameworks */,
+				32781E9972BD67B4B96B0A49B56B1EF9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACA6BEDBC297894A1EFD79D712E216DC /* PBXTargetDependency */,
-				5ACC96588684560B32B234ED06912B08 /* PBXTargetDependency */,
-				9B9E6A87E8CAF8DE4DD5A2EA72F3217F /* PBXTargetDependency */,
+				EFEB9EC3CA7293951AC5140F85FBB531 /* PBXTargetDependency */,
+				E26564000CB64D0BC10C5484ED1EA4E2 /* PBXTargetDependency */,
+				F8FE6D347CF8E6A16EEABEC99E95E065 /* PBXTargetDependency */,
 			);
 			name = "Pods-HoloCollectionViewDiffPlugin_Example";
 			productName = "Pods-HoloCollectionViewDiffPlugin_Example";
@@ -653,12 +653,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1200;
-				TargetAttributes = {
-					381E72C4BC4A81B6D674521B23843E8F = {
-						LastSwiftMigration = 1200;
-					};
-				};
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -683,21 +678,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19C1B476E36AEF0218310E46FDB26E4F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D033FE32023C2E56957526C366FF55F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59CF18DD55358B7DA77C952E49FAC98B /* Resources */ = {
+		32781E9972BD67B4B96B0A49B56B1EF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -718,17 +699,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		11ECBFD2EF306FE5D11D9735C1786568 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		A33E6E90B47D58C6EF262276B48E6616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F603706F88535176F8BDFA7AA004D51 /* Pods-HoloCollectionViewDiffPlugin_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E587A321229EEFB77891853D4E9B9EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		37C0CE1915D549C4D61AA11C539C5654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -749,11 +736,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66BB23CF274D4A31821B55D3106703ED /* Sources */ = {
+		4A62AA4FBFB3F5F03165A1F71D6B633E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A078001495ED3453DBDE7678A33946AF /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m in Sources */,
+				484315814C70E385455CF7264E281E5D /* Pods-HoloCollectionViewDiffPlugin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681A5940E92459FF5E368AA42FA84DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BEF82DE7E09B41744762A577335EEE /* Pods-HoloCollectionViewDiffPlugin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D0F98EC0DA04E9736D99134BE9D301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED5C49C481164C081C9C8A7A5088624 /* HoloCollectionView+DiffPlugin.swift in Sources */,
+				0157C1A171586E5DD1F37FDBC714440A /* HoloCollectionViewDiffPlugin-dummy.m in Sources */,
+				AD99019A9B49F53B296AFC534C7D1EB3 /* UICollectionView+DiffPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -775,94 +780,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1996F565292AA7B1E5E8C41C687679F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B56EC28C7BE479626C21F5E2E8D2EB35 /* HoloCollectionView+DiffPlugin.swift in Sources */,
-				9D63DD228D951666C57924F050BC49E2 /* HoloCollectionViewDiffPlugin-dummy.m in Sources */,
-				6779644F0D2AC6D751A64BD8BE03114E /* UICollectionView+DiffPlugin.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F8F80499E403AC75D497FDD31225DC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-HoloCollectionViewDiffPlugin_Example";
-			target = ACACD9E46A52E075AEDB5B7B1EF991F8 /* Pods-HoloCollectionViewDiffPlugin_Example */;
-			targetProxy = E00A0EF783DFCA5270A3AE9955E7C25E /* PBXContainerItemProxy */;
-		};
-		5ACC96588684560B32B234ED06912B08 /* PBXTargetDependency */ = {
+		C3AF0E6B8F306D0C2D86F62697B1A756 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HoloCollectionView;
 			target = 2F87581DC551AFD3D846D454015C8183 /* HoloCollectionView */;
-			targetProxy = EC2DB1C9A4026FA96AF3619FB236C340 /* PBXContainerItemProxy */;
+			targetProxy = 698C9352BC006AC60F8E15581B26DDF3 /* PBXContainerItemProxy */;
 		};
-		9B9E6A87E8CAF8DE4DD5A2EA72F3217F /* PBXTargetDependency */ = {
+		E26564000CB64D0BC10C5484ED1EA4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HoloCollectionView;
+			target = 2F87581DC551AFD3D846D454015C8183 /* HoloCollectionView */;
+			targetProxy = FC7B30514F376FEB064B0A4AFE495A9D /* PBXContainerItemProxy */;
+		};
+		E42F91C1A6830CB460D8162C0ED8E2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeepDiff;
+			target = B798275031D11315684486DC2E2B6FCA /* DeepDiff */;
+			targetProxy = 13EE9A15AC7BEABDACD016E0CD325A20 /* PBXContainerItemProxy */;
+		};
+		EFEB9EC3CA7293951AC5140F85FBB531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeepDiff;
+			target = B798275031D11315684486DC2E2B6FCA /* DeepDiff */;
+			targetProxy = 31D302FEAD7E2AF927CFA72AF16CA070 /* PBXContainerItemProxy */;
+		};
+		F8FE6D347CF8E6A16EEABEC99E95E065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HoloCollectionViewDiffPlugin;
 			target = 381E72C4BC4A81B6D674521B23843E8F /* HoloCollectionViewDiffPlugin */;
-			targetProxy = 02E34184684E6BE809FBA67ADA8A376D /* PBXContainerItemProxy */;
+			targetProxy = 81ED774184A19E0392F722975F82C5FC /* PBXContainerItemProxy */;
 		};
-		9D3CD0DECB7E3A744170EB1F8599CE8E /* PBXTargetDependency */ = {
+		FA4F5B7840A939E5CDEA3FB4902D86C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HoloCollectionView;
-			target = 2F87581DC551AFD3D846D454015C8183 /* HoloCollectionView */;
-			targetProxy = 068F677EC41C9C0E936B7232654DAEFA /* PBXContainerItemProxy */;
-		};
-		ACA6BEDBC297894A1EFD79D712E216DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DeepDiff;
-			target = B798275031D11315684486DC2E2B6FCA /* DeepDiff */;
-			targetProxy = 313A73C3A41C7202F96BF91DF6898B96 /* PBXContainerItemProxy */;
-		};
-		F3D80415D4D98D4D4D8237950EF5E969 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DeepDiff;
-			target = B798275031D11315684486DC2E2B6FCA /* DeepDiff */;
-			targetProxy = C094B0390936DC0F1F0E12FF303B058B /* PBXContainerItemProxy */;
+			name = "Pods-HoloCollectionViewDiffPlugin_Example";
+			target = ACACD9E46A52E075AEDB5B7B1EF991F8 /* Pods-HoloCollectionViewDiffPlugin_Example */;
+			targetProxy = 957E53F1ADB6F593B4AC184837AB39D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B9D49347015DD5034693D930E753AE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C308241B96A4B401DD0031DD27702496 /* HoloCollectionViewDiffPlugin.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin.modulemap";
-				PRODUCT_MODULE_NAME = HoloCollectionViewDiffPlugin;
-				PRODUCT_NAME = HoloCollectionViewDiffPlugin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		28553D123A3AE10DF29987EA0D1872A6 /* Debug */ = {
+		061D28D1985329BCAC72E7716B038D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E50CE4C26031D498D570ADA06EF7DCE1 /* DeepDiff.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -889,46 +852,12 @@
 			};
 			name = Debug;
 		};
-		307AFC15B16EE6AF82704C6CB04E28EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B7AFE985BA8415F0815B9397674E44 /* Pods-HoloCollectionViewDiffPlugin_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B8C93585D65A0E7ACD713B90CDFA2A4 /* Debug */ = {
+		06A1379A569A76C397E2F575E175CC2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F649B1CC0F22DCEB25F465E6299B3B5C /* Pods-HoloCollectionViewDiffPlugin_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -956,107 +885,10 @@
 			};
 			name = Debug;
 		};
-		83FB9DECF8A2F92894847FE660FE26DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5AB5EC255E31DD21196D86BD30DCE2F /* HoloCollectionViewDiffPlugin.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin.modulemap";
-				PRODUCT_MODULE_NAME = HoloCollectionViewDiffPlugin;
-				PRODUCT_NAME = HoloCollectionViewDiffPlugin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C866730E121ECB777E0BBA9021C6B82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FCBE04BF3159BE50CF36B259CFEA93F /* HoloCollectionView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HoloCollectionView/HoloCollectionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HoloCollectionView/HoloCollectionView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HoloCollectionView/HoloCollectionView.modulemap";
-				PRODUCT_MODULE_NAME = HoloCollectionView;
-				PRODUCT_NAME = HoloCollectionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		912D72B1E5FFE2020BCC74EE4B6DFFF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 838F75F412E9078CE5B0A5CBECADCACF /* Pods-HoloCollectionViewDiffPlugin_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		93A4C59FE82A18ACC81D28CB7BF2A1C5 /* Release */ = {
+		0727FF2F13049855CEB3FF4CCD456FB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D45C6EB1EC7CB7E16D38D3F56DB8DF4 /* HoloCollectionView.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1076,38 +908,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4BB26BC68D28EAC3F600CE36E6F733D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E86DD547C995F9773A4BE350E2713DC /* DeepDiff.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeepDiff/DeepDiff-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeepDiff/DeepDiff-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeepDiff/DeepDiff.modulemap";
-				PRODUCT_MODULE_NAME = DeepDiff;
-				PRODUCT_NAME = DeepDiff;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1116,7 +916,7 @@
 			};
 			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		2CAD32AF16B28445E66726CEB89D32AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1176,7 +976,98 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		31FD6527A4ACF335C48CFA6033BB30F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C308241B96A4B401DD0031DD27702496 /* HoloCollectionViewDiffPlugin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin.modulemap";
+				PRODUCT_MODULE_NAME = HoloCollectionViewDiffPlugin;
+				PRODUCT_NAME = HoloCollectionViewDiffPlugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F96E834322CAE6369DF19D8D8F2186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FCBE04BF3159BE50CF36B259CFEA93F /* HoloCollectionView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HoloCollectionView/HoloCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HoloCollectionView/HoloCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HoloCollectionView/HoloCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = HoloCollectionView;
+				PRODUCT_NAME = HoloCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4531ADAA922841CFCC26B90608F16E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E86DD547C995F9773A4BE350E2713DC /* DeepDiff.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeepDiff/DeepDiff-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeepDiff/DeepDiff-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeepDiff/DeepDiff.modulemap";
+				PRODUCT_MODULE_NAME = DeepDiff;
+				PRODUCT_NAME = DeepDiff;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		477B0298221A7FA44C610192EC957EBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1241,12 +1132,12 @@
 			};
 			name = Debug;
 		};
-		D4C7FEC38E41E8929D3D192B4C859E0A /* Release */ = {
+		66CD131341FFDCD2CF343A22EC691A11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDE3D7D7D8FB748508A5BB33E54C95CB /* Pods-HoloCollectionViewDiffPlugin_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1275,14 +1166,121 @@
 			};
 			name = Release;
 		};
+		743E871101040F7E25E72F27988378FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838F75F412E9078CE5B0A5CBECADCACF /* Pods-HoloCollectionViewDiffPlugin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F5055EC5375884D6BC929CB1AB432F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B7AFE985BA8415F0815B9397674E44 /* Pods-HoloCollectionViewDiffPlugin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HoloCollectionViewDiffPlugin_Tests/Pods-HoloCollectionViewDiffPlugin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BD9798394F39037D5D30E5BAB12193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AB5EC255E31DD21196D86BD30DCE2F /* HoloCollectionViewDiffPlugin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HoloCollectionViewDiffPlugin/HoloCollectionViewDiffPlugin.modulemap";
+				PRODUCT_MODULE_NAME = HoloCollectionViewDiffPlugin;
+				PRODUCT_NAME = HoloCollectionViewDiffPlugin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1B4560EC105E413E187F77A1E3CFEEFF /* Build configuration list for PBXNativeTarget "DeepDiff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28553D123A3AE10DF29987EA0D1872A6 /* Debug */,
-				A4BB26BC68D28EAC3F600CE36E6F733D /* Release */,
+				061D28D1985329BCAC72E7716B038D8C /* Debug */,
+				4531ADAA922841CFCC26B90608F16E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3415AAE7898B1F3347CD549471F8510D /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743E871101040F7E25E72F27988378FF /* Debug */,
+				8F5055EC5375884D6BC929CB1AB432F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1290,17 +1288,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				477B0298221A7FA44C610192EC957EBE /* Debug */,
+				2CAD32AF16B28445E66726CEB89D32AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73562FA675B9BB798D202BC833D48555 /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Example" */ = {
+		84E192E3CEF698E9680DCB3B92AFDE7B /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B8C93585D65A0E7ACD713B90CDFA2A4 /* Debug */,
-				D4C7FEC38E41E8929D3D192B4C859E0A /* Release */,
+				06A1379A569A76C397E2F575E175CC2A /* Debug */,
+				66CD131341FFDCD2CF343A22EC691A11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1308,26 +1306,17 @@
 		A11B6AF231C50B576411EE92330D5B0A /* Build configuration list for PBXNativeTarget "HoloCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C866730E121ECB777E0BBA9021C6B82 /* Debug */,
-				93A4C59FE82A18ACC81D28CB7BF2A1C5 /* Release */,
+				3F96E834322CAE6369DF19D8D8F2186B /* Debug */,
+				0727FF2F13049855CEB3FF4CCD456FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1606167459F4C0D2002709ABE09152E /* Build configuration list for PBXNativeTarget "Pods-HoloCollectionViewDiffPlugin_Tests" */ = {
+		F847241107C978A31119382EEBDF1B50 /* Build configuration list for PBXNativeTarget "HoloCollectionViewDiffPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				912D72B1E5FFE2020BCC74EE4B6DFFF8 /* Debug */,
-				307AFC15B16EE6AF82704C6CB04E28EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC9F00D5309BA7D9145CE8A6EB695C91 /* Build configuration list for PBXNativeTarget "HoloCollectionViewDiffPlugin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B9D49347015DD5034693D930E753AE2 /* Debug */,
-				83FB9DECF8A2F92894847FE660FE26DD /* Release */,
+				31FD6527A4ACF335C48CFA6033BB30F2 /* Debug */,
+				9BD9798394F39037D5D30E5BAB12193E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,7 +14,7 @@
 - [x] Provide section and row maker to handle proxy events of `HoloCollectionView`.
 - [x] Provide protocols, implemented in cells, headers and footers to handle proxy events of `HoloCollectionView`.
 - [x] Support to regist maps (key-Class) for row, header and footer.
-- [ ] Diff reload data.
+- [x] Diff reload data. [HoloCollectionViewDiffPlugin](https://github.com/HoloFoundation/HoloCollectionViewDiffPlugin) to support `DeepDiff`
 - [ ] Adapt new APIs from iOS 13 and iOS 14.
 - [ ] Modern Objective-C and better Swift support.
 
@@ -23,6 +23,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Integration with 3rd party libraries
+
+- [HoloCollectionViewDiffPlugin](https://github.com/HoloFoundation/HoloCollectionViewDiffPlugin) - plugin to support [DeepDiff](https://github.com/onmyway133/DeepDiff), diff reload a section of `UICollectionView`. `DeepDiff` tells the difference between 2 collections and the changes as edit steps.
 
 ## Usage
 
