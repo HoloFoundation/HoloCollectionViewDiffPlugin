@@ -1,6 +1,0 @@
-framework module Pods_HoloCollectionViewDiffPlugin_Tests {
-  umbrella header "Pods-HoloCollectionViewDiffPlugin_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
