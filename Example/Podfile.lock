@@ -1,7 +1,7 @@
 PODS:
   - DeepDiff (2.3.1)
   - HoloCollectionView (1.3.0)
-  - HoloCollectionViewDiffPlugin (0.1.0):
+  - HoloCollectionViewDiffPlugin (0.2.0):
     - DeepDiff (~> 2.3)
     - HoloCollectionView (~> 1.3)
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
   HoloCollectionView: 6626a33d384ed7f938a237bddc9f3010db80d041
-  HoloCollectionViewDiffPlugin: 0874e863629ed0ab02a5a2e0739cb58ed5c4c041
+  HoloCollectionViewDiffPlugin: 6533b3d336e4616cdba8b5238e45ca814153ee32
 
 PODFILE CHECKSUM: 797b55375db2dc23aa7c76814832160d09ae4433
 
