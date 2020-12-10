@@ -11,6 +11,7 @@ import HoloCollectionView
 
 public extension HoloCollectionRowMaker {
     
+    /// Diff id
     func diffId(_ diffId: AnyHashable) -> Self {
         let row = self.fetchCollectionRow()
         row.diffId = diffId

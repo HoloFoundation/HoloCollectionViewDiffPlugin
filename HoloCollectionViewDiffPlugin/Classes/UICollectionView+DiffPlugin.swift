@@ -11,11 +11,17 @@ import HoloCollectionView
 
 public extension UICollectionView {
     
+    /// Stored old sections data
     func stored() {
         self.diffOldData = self.holo_proxy.proxyData.sections
     }
 
-    
+    /// Animate reload in a batch update
+    ///
+    /// - Parameters:
+    ///   - sectionTag: Tag of the section that all calculated IndexPath belong
+    ///   - updateData: Update your data source model
+    ///   - completion: Called when operation completes
     func reload (
         sectionTag: String? = nil,
         updateData: (() -> Void)? = nil,
