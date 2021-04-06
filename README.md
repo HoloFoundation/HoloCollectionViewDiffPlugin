@@ -21,9 +21,9 @@ To use it, simply make sure you use DeepDiff and import this plugin.
 let collectionView = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: flowLayout)
 self.view.addSubview(collectionView)
 
-collectionView.holo_makeRows { (make) in
+collectionView.holo_makeItems { (make) in
     for item in [Int]() {
-        _ = make.row(CollectionViewCell.self).model(item).diffId(item)
+        _ = make.item(CollectionViewCell.self).model(item).diffId(item)
     }
 }
 collectionView.reloadData()
@@ -32,15 +32,15 @@ collectionView.reloadData()
 collectionView.stored()
 
 collectionView.holo_removeAllSections()
-collectionView.holo_makeRows { (make) in
+collectionView.holo_makeItems { (make) in
     for item in [Int]() {
-        _ = make.row(CollectionViewCell.self).model(item).diffId(item)
+        _ = make.item(CollectionViewCell.self).model(item).diffId(item)
     }
 }
 
 collectionView.reload()
 ```
-If the collectionView has been reload and then you want to diff reload, you need to perform `collectionView.stored()` before `collectionView.holo_makeRows{}`.
+If the collectionView has been reload and then you want to diff reload, you need to perform `collectionView.stored()` before `collectionView.holo_makeItems{}`.
 
 ## Installation
 

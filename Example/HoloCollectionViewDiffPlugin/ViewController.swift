@@ -21,10 +21,16 @@ class ViewController: UIViewController {
     }
     
     @objc func reloadButtonAction() {
+        self.reloadWithMaker()
+//        self.reloadWithObject()
+    }
+    
+    
+    func reloadWithMaker() {
         self.collectionView.holo_removeAllSections()
-        self.collectionView.holo_makeRows { (make) in
+        self.collectionView.holo_makeItems { (make) in
             DataSet.generateItems().forEach { (item) in
-                _ = make.row(CollectionViewCell.self).willDisplayHandler { (cell, model) in
+                _ = make.item(CollectionViewCell.self).willDisplayHandler { (cell, model) in
                     guard let cell = cell as? CollectionViewCell else { return }
                     cell.configTitle("\(item)")
                 }.diffId(item)
@@ -33,6 +39,27 @@ class ViewController: UIViewController {
         self.collectionView.reload()
     }
     
+    func reloadWithObject() {
+        let section = HoloCollectionSection()
+        var items = [HoloCollectionItem]()
+        DataSet.generateItems().forEach { (item) in
+            let collectionItem = HoloCollectionItem()
+            collectionItem.cell = CollectionViewCell.self
+            collectionItem.willDisplayHandler = { (cell, model) in
+                guard let cell = cell as? CollectionViewCell else { return }
+                cell.configTitle("\(item)")
+            }
+            
+            collectionItem.diffId = item
+            items.append(collectionItem)
+        }
+        section.items = items
+        self.collectionView.holo_sections = [section]
+        self.collectionView.reload()
+    }
+    
+    
+    // MARK: - lazy
     
     lazy var reloadButton: UIButton = {
         let _reloadButton = UIButton.init(type: .system)

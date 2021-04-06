@@ -9,31 +9,32 @@ import Foundation
 import DeepDiff
 import HoloCollectionView
 
-public extension HoloCollectionRowMaker {
+public extension HoloCollectionItemMaker {
     
     /// Diff id
+    @discardableResult
     func diffId(_ diffId: AnyHashable) -> Self {
-        let row = self.fetchCollectionRow()
-        row.diffId = diffId
+        let item = self.fetchCollectionItem()
+        item.diffId = diffId
         return self
     }
     
 }
 
-extension HoloCollectionRow: DiffAware {
+extension HoloCollectionItem: DiffAware {
     
-    static var kHoloCollectionRowDiffIdKey = "kHoloCollectionRowDiffIdKey"
+    static var kHoloCollectionItemDiffIdKey = "kHoloCollectionItemDiffIdKey"
     
     public var diffId: AnyHashable? {
         set {
-            objc_setAssociatedObject(self, &HoloCollectionRow.kHoloCollectionRowDiffIdKey, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            objc_setAssociatedObject(self, &HoloCollectionItem.kHoloCollectionItemDiffIdKey, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
         get {
-            return objc_getAssociatedObject(self, &HoloCollectionRow.kHoloCollectionRowDiffIdKey) as? AnyHashable
+            return objc_getAssociatedObject(self, &HoloCollectionItem.kHoloCollectionItemDiffIdKey) as? AnyHashable
         }
     }
     
-    public static func compareContent(_ a: HoloCollectionRow, _ b: HoloCollectionRow) -> Bool {
+    public static func compareContent(_ a: HoloCollectionItem, _ b: HoloCollectionItem) -> Bool {
         return a.diffId != nil && b.diffId != nil && a.diffId == b.diffId
     }
     

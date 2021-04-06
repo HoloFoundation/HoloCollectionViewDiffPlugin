@@ -27,19 +27,26 @@ public extension UICollectionView {
         updateData: (() -> Void)? = nil,
         completion: ((Bool) -> Void)? = nil) {
         
-        guard let section = self.holo_proxy.proxyData.section(withTag: sectionTag),
+        var targetSection: HoloCollectionSection? = nil
+        for item in self.holo_proxy.proxyData.sections {
+            if item.tag == sectionTag || (item.tag == nil && sectionTag == nil) {
+                targetSection = item
+                break
+            }
+        }
+        guard let section = targetSection,
               let index = self.holo_proxy.proxyData.sections.firstIndex(of: section) else {
             debugPrint("[HoloCollectionViewDiffPlugin] No found a section with the tag: \(sectionTag ?? "nil").")
             return
         }
         
-        var oldItems: [HoloCollectionRow]
+        var oldItems: [HoloCollectionItem]
         if let diffOldData = self.diffOldData, diffOldData.count > index {
-            oldItems = diffOldData[index].rows
+            oldItems = diffOldData[index].items
         } else {
-            oldItems = [HoloCollectionRow]()
+            oldItems = [HoloCollectionItem]()
         }
-        let newItems = section.rows
+        let newItems = section.items
         let changes = diff(old: oldItems, new: newItems)
         
         self.reload(changes: changes,
